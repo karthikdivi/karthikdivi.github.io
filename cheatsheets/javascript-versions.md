@@ -1,8 +1,7 @@
 ---
 title: JavaScript Versions
 description: JavaScript/ ECMAScript Versions with release years and features added
-tag: sample-tag
-created: 2017-12-04
+created: 2018-10-22
 ---
 
 | Version | Year | Version Name (s) | Features added | 
