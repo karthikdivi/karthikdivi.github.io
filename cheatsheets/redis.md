@@ -4,7 +4,7 @@ description:
 created: 2018-09-22
 ---
 
-## Hash
+### Hash
 
 ```sh
 HSET colors white fffff
@@ -13,12 +13,7 @@ HGET colors white
 HDEL colors white
 ```
 
-## Ship
-Push docker image
-```sh
-docker push user_id/my_image
-```
-## List
+### List
 
 ```sh
 LPUSH jobs job1
@@ -28,7 +23,7 @@ RPOP jobs
 LPOP jobs
 ```
 
-## Set
+### Set
 
 ```sh
 SADD colors white
@@ -37,26 +32,26 @@ SADD colors black
 SMEMBERS myset
 ```
 
-## SortedSets
+### SortedSets
 
 ```
 Takes score and sort by that
 ```
 
-## String
+### String
 
 ```sh
 SET masterServer host1 EX 60 NX
 ```
 
-## MISC
+### MISC
 
 ```sh
 FLUSHALL
 FLUSHDB
 ```
 
-## Use Cases
+### Use Cases
 
 * Cache
 * Distributed Locking

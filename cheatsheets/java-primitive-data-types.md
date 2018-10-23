@@ -4,7 +4,7 @@ description:
 created: 2018-01-21
 ---
 
-## Integer
+#### Integer
 
 | Data Type | Size (bits)| Range |
 |--------|--------|--------|
@@ -14,12 +14,12 @@ created: 2018-01-21
 |int|32|-2^31to 2^31-1|
 |long|64|-2^63 to 2^63-1|
 
-## Floating Point
+#### Floating Point
 
 | Data Type | Size (bits)| Range |
 |--------|--------|--------|
 |float|32||
 |double|64||
 
-## Other
+#### Other
 * boolean
