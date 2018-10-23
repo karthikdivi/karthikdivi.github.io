@@ -1,7 +1,7 @@
 ---
 title: Docker
 description: Docker Build, Ship and Run commands
-created: 2018-10-23
+created: 2018-10-22
 ---
 
 ## Build
