@@ -78,12 +78,12 @@ Result:
 Markdown:
 ```
 [This is how you put links](http://karthikdivi.com/blog)
-![This is how you put images](https://static.karthikdivi.com/images/blogs/1512365970828/aa0a9c62-1938-42fe-8f78-6b05c6206e60_1.46d4a484f4d2036eab79a61f2ac75d9c.jpeg)
+![This is how you put images](https://via.placeholder.com/150.png/09f/fff)
 ```
 Result:
 
 [This is how you put links](http://karthikdivi.com/blog)
-![This is how you put images](https://static.karthikdivi.com/images/blogs/1512365970828/aa0a9c62-1938-42fe-8f78-6b05c6206e60_1.46d4a484f4d2036eab79a61f2ac75d9c.jpeg)
+![This is how you put images](https://via.placeholder.com/150.png/09f/fff)
 
 ---
 Markdown:
