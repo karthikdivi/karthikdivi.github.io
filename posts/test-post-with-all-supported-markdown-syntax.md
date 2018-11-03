@@ -78,11 +78,19 @@ Result:
 Markdown:
 ```
 [This is how you put links](http://karthikdivi.com/blog)
-![This is how you put images](https://via.placeholder.com/150.png/09f/fff)
+
 ```
 Result:
-
 [This is how you put links](http://karthikdivi.com/blog)
+
+---
+
+Markdown:
+```
+![This is how you put images](https://via.placeholder.com/150.png/09f/fff)
+
+```
+Result:
 ![This is how you put images](https://via.placeholder.com/150.png/09f/fff)
 
 ---
