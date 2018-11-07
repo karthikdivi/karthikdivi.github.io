@@ -4,15 +4,17 @@ description: Latest & Greatest Javascript features you need to know before start
 created: 2018-11-07
 ---
 
----
-# Terminology 
+## Terminology 
+
 * SSR, CSR 
 * JSX
 * Transpiling (Babel)
 * PWA (Progressive Web App)
 * Chrome V8, Node, NPM
 * TypeScript (Strict syntactical superset of JavaScript)
+
 ---
+
 * Impure Functions with Side Effects & Pure Functions
 		`Maintaining referential transparency`
 * Stateful & Stateless 
@@ -26,13 +28,16 @@ created: 2018-11-07
 
 * Imperative (how: `for`), Declarative (what: `.map`)
 * Higher-order Functions
+
 ---
+
 * Functional Programming with JS
 * Observables (streams) Hot & Cold
 * Reactive Programming (RxJS)
 	`Propagating and responding to incoming events over time, declaratively`
 
 ---
+
 ## Javascript versions
 
 | Version | Year | Version| Features added | 
@@ -41,9 +46,11 @@ created: 2018-11-07
 |6|2015|ECMAScript 2015 (ES 6)|let, const, Modules, Promises, Classes & Inheritance, Template Literals, Object destructing, Generators, Map and Set, default parameter values|
 |7|2016|ECMAScript 2016|Array.includes(), `**`|
 |8|2017|ECMAScript 2017|Async Functions, Object.entries|
-|9|2018|ECMAScript 2018|Spread operator, |
+|9|2018|ECMAScript 2018|Spread operator |
+
 ---
-# JSON Support
+
+## JSON Support
 
 ```javascript
 const userObj = {
@@ -56,8 +63,10 @@ const userObjString = JSON.stringify(userObj);
 const userObjFromString = JSON.parse(userObjString);
 
 ```
+
 ---
-#   let, const
+
+##   let, const
 
 * var has function scope, i.e its accessible inside the function it declared 
 
@@ -79,7 +88,8 @@ console.log('0:', functions[0](), '1:', functions[1]());
 
 
 ---
-# Arrow functions
+
+## Arrow functions
 
 ```javascript
 let square = function(inp){
@@ -106,7 +116,7 @@ console.log(squaresOfEvenNumbers);
 ```
 ---
 
-# String templating
+## String templating
 
 
 <br>
@@ -119,7 +129,8 @@ console.log(`hello ${name} 2+2 is ${2+2}`);
 
 
 ---
-# Object Destructuring
+
+## Object Destructuring
 
 ```javascript 
 let user = { firstName: "foo", lastName: "bar", 
@@ -131,10 +142,12 @@ let {firstName : f, age : a} = user;
 function displayUserAge({firstName, age}){
 	console.log(`${firstName}'s age: ${age}`)
 }
-
 ```
+
 ---
-# Default Values
+
+## Default Values
+
 ```javascript 
 function setName(name = "NA"){
 	return name;
@@ -152,7 +165,9 @@ func({}); // ?
 ```
 
 ---
-# Default Values
+
+## Default Values
+
 ```javascript 
 function setName(name = "NA"){
 	return name;
@@ -168,9 +183,10 @@ func(); //1 2 3  (hits the object literal default)
 func({}); //10 11 12   (hits the value defaults)
 
 ```
+
 ---
 
-# Spread Operators 
+## Spread Operators 
 
 ```javascript
 const naturalNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -192,7 +208,8 @@ let{a, b, ...others} = obj;
 ```
 
 ---
-# Fetch API
+
+## Fetch API
 
 ```javascript
 //GET
@@ -210,7 +227,8 @@ fetch([url], { method: 'POST',
 
 ```
 ---
-# ~~Flow Generators~~, Promise, Async & Await
+
+## ~~Flow Generators~~, Promise, Async & Await
 
 ```javascript
 async getTodos(userObj){
@@ -227,7 +245,7 @@ let data = await getTodos({fn: "foo"});
 
 ---
 
-# Classes 
+## Classes 
 
 Classes are Functions (Functions are Objects)
 
@@ -251,7 +269,7 @@ const user2 = new User('bar', 28);
 
 ---
 
-# Module system
+## Module system
 
 
 ```javascript
@@ -279,7 +297,7 @@ import connect, {username, config} from './utils.js';
 
 ```
 ---
-# Classes with module  system
+## Classes with module  system
 
 ```javascript
 user.js
@@ -307,7 +325,7 @@ const user2 = new User('bar', 28);
 ```
 
 ---
-# NPM
+## NPM
 ```jsom
 {
   "name": "my_package",
@@ -323,28 +341,8 @@ const user2 = new User('bar', 28);
 
 ---
 
-# React
-##### A ~~Framework~~ library for building user interfaces
-
-###### - Complex webapps (Facebook, Twitter, reddit, Netflix, AWS, Microsoft, Apple, Yahoo etc)
-###### - Native Mobile apps using React Native (FB, Instagram, Uber, Skype etc)
-###### - Desktop apps using Electron (Slack, VS Code, Atom etc) & Proton Native
-
----
-* JSX
-* Virtual DOM
-* Components
-* state
-* props
-* class components & functional components
-* lifecycle methods
-* https://github.com/ReactTraining/react-router
-* https://github.com/facebook/create-react-app
-* https://github.com/reduxjs/redux
-* https://reactjs.org/community/ui-components.html
-* https://github.com/erikras/redux-form/
-
----
 Demo
+
 https://codesandbox.io/s/4xx659x11x
+
 https://github.com/karthikdivi/spring-react-material-boilerplate
