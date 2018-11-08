@@ -13,6 +13,7 @@ created: 2018-11-07
 * Chrome V8, Node, NPM
 * TypeScript (Strict syntactical superset of JavaScript)
 
+
 ---
 
 * Impure Functions with Side Effects & Pure Functions
@@ -31,10 +32,12 @@ created: 2018-11-07
 
 ---
 
+
 * Functional Programming with JS
 * Observables (streams) Hot & Cold
 * Reactive Programming (RxJS)
 	`Propagating and responding to incoming events over time, declaratively`
+
 
 ---
 
@@ -136,9 +139,11 @@ console.log(`hello ${name} 2+2 is ${2+2}`);
 let user = { firstName: "foo", lastName: "bar", 
 	     age: 27, junk: "bla"};
 
+// Assigning to variables
 let {firstName, age} = user;
 let {firstName : f, age : a} = user;
 
+// Using methods
 function displayUserAge({firstName, age}){
 	console.log(`${firstName}'s age: ${age}`)
 }
@@ -232,10 +237,8 @@ fetch([url], { method: 'POST',
 
 ```javascript
 async getTodos(userObj){
-
 	const res = await fetch([url]);
 	const data = await res.json()    
-    
 	return data;
 }
 
@@ -341,7 +344,7 @@ const user2 = new User('bar', 28);
 
 ---
 
-Demo
+Sample Code
 
 https://codesandbox.io/s/4xx659x11x
 
