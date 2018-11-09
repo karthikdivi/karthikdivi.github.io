@@ -334,7 +334,16 @@ const user2 = new User('bar', 28);
   "name": "my_package",
   "version": "1.0.0",
   "dependencies": {
-    "my_dep": "2.1.0"
+    "my_dep_1": "2.1.0",
+	"my_dep_2": "~version", // allows patch 
+	"my_dep_3": "^version", // allows patch and minor updates
+	"my_dep_4": "=version", // "my_dep_4": "version",
+	"my_dep_5": ">version",
+	"my_dep_6": ">=version",
+	"my_dep_7": "<version",
+	"my_dep_8": "<=version",
+	"my_dep_9": "*",
+	"my_dep_10": "latest",
   },
   "devDependencies" : {
     "my_test_framework": "3.1.0"
