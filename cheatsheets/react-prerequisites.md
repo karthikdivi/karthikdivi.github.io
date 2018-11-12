@@ -288,8 +288,7 @@ function connect(username, password){
 	return connection;
 }
 
-export username;
-export password;
+export { username, password };
 export config;
 export default connect; // at most one
 
