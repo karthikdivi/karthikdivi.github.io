@@ -295,7 +295,7 @@ export default connect; // at most one
 
 \index.js
 ---------
-import connect, {username, config} from './utils.js';
+import connect, {username as foo, config} from './utils.js';
 
 ```
 ---
