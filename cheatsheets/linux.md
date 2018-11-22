@@ -16,3 +16,7 @@ rm <fileName>   # removes file with given name
 du -sh *        # list directories with their total sizes 
 df -h           # to see free disk space
 ```
+
+## tar/zip
+tar -zcvf foo.txt.tar.gz foo.txt
+tar -xvf foo.txt.tar.gz
