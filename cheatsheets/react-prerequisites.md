@@ -354,6 +354,6 @@ const user2 = new User('bar', 28);
 
 Sample Code
 
-https://codesandbox.io/s/4xx659x11x
+[https://codesandbox.io/s/4xx659x11x](https://codesandbox.io/s/4xx659x11x)
 
-https://github.com/karthikdivi/spring-react-material-boilerplate
+[https://github.com/karthikdivi/spring-react-material-boilerplate](https://github.com/karthikdivi/spring-react-material-boilerplate)
