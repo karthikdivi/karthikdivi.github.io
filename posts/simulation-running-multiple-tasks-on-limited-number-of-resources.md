@@ -18,7 +18,7 @@ for (let i = 0; i < AVAILABLE_DEVICES; i++) {
 }
 
 
-const pendingRequests = []
+const pendingRequests = [];
 // gives a device in future
 async function getDevice() {
     let _resolve, _reject;
